@@ -257,3 +257,4 @@ dart_code_metrics:
     - prefer-first
     - prefer-last
     - prefer-trailing-comma
+    - check-unused-files
