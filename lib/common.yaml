@@ -242,6 +242,9 @@ dart_code_metrics:
     - avoid-unnecessary-setstate
     - avoid-use-expanded-as-spacer
     - avoid-wrapping-in-padding
+    - avoid-returning-widgets
+    - avoid-shrink-wrap-in-lists
+    - avoid-use-expanded-as-spacer
     - always-remove-listener
     - no-equal-arguments
     - newline-before-return
