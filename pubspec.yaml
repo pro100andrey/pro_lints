@@ -10,3 +10,6 @@ environment:
 
 dependencies: 
   dart_code_metrics: ^4.19.0
+
+dependency_overrides:
+  analyzer: ^5.0.0
