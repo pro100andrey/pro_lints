@@ -7,21 +7,21 @@ packages:
       name: _fe_analyzer_shared
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "48.0.0"
+    version: "47.0.0"
   analyzer:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: analyzer
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "5.0.0"
+    version: "4.7.0"
   analyzer_plugin:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
       name: analyzer_plugin
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.11.1"
+    version: "0.10.0"
   ansicolor:
     dependency: transitive
     description:
@@ -72,7 +72,7 @@ packages:
     source: hosted
     version: "0.17.2"
   dart_code_metrics:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       name: dart_code_metrics
       url: "https://pub.dartlang.org"
