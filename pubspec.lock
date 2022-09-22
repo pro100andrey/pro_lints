@@ -72,7 +72,7 @@ packages:
     source: hosted
     version: "0.17.2"
   dart_code_metrics:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: dart_code_metrics
       url: "https://pub.dartlang.org"
