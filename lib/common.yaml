@@ -1,12 +1,11 @@
 analyzer:
-  plugins:
-    - dart_code_metrics
   strong-mode:
     implicit-casts: false
     implicit-dynamic: false
   errors:
-    missing_required_param: error
     missing_return: error
+    invalid_assignment: error
+    missing_required_param: error
     avoid_relative_lib_imports: error
     avoid_slow_async_io: error
     avoid_types_as_parameter_names: error
@@ -18,18 +17,9 @@ analyzer:
 
 linter:
   rules:
-    - collection_methods_unrelated_type.
-    - combinators_ordering.
-    - dangling_library_doc_comments.
-    - implicit_call_tearoffs.
-    - library_annotations.
-    - unnecessary_library_directive.
-    - unreachable_from_main.
-    - use_string_in_part_of_directives.
     - always_declare_return_types
     - always_put_control_body_on_new_line
     - always_put_required_named_parameters_first
-    - always_require_non_null_named_parameters
     - always_specify_types: false
     - always_use_package_imports: false
     - annotate_overrides
@@ -58,8 +48,6 @@ linter:
     - avoid_relative_lib_imports
     - avoid_renaming_method_parameters
     - avoid_return_types_on_setters
-    - avoid_returning_null
-    - avoid_returning_null_for_future
     - avoid_returning_null_for_void
     - avoid_returning_this
     - avoid_setters_without_getters
@@ -80,15 +68,17 @@ linter:
     - cascade_invocations
     - cast_nullable_to_non_nullable
     - close_sinks
+    - collection_methods_unrelated_type
     - combinators_ordering
     - comment_references
     - conditional_uri_does_not_exist
     - constant_identifier_names
     - control_flow_in_finally
     - curly_braces_in_flow_control_structures
-    - depend_on_referenced_packages: false
-    - deprecated_member_use_from_same_package
+    - dangling_library_doc_comments
+    - depend_on_referenced_packages
     - deprecated_consistency
+    - deprecated_member_use_from_same_package
     - diagnostic_describe_all_properties: false
     - directives_ordering
     - discarded_futures
@@ -102,23 +92,29 @@ linter:
     - flutter_style_todos
     - hash_and_equals
     - implementation_imports
-    - iterable_contains_unrelated_type
+    - implicit_call_tearoffs
+    - implicit_reopen
+    - invalid_case_patterns
     - join_return_with_assignment
     - leading_newlines_in_multiline_strings
+    - library_annotations
     - library_names
     - library_prefixes
-    - library_private_types_in_public_api: false
+    - library_private_types_in_public_api
     - lines_longer_than_80_chars
-    - list_remove_unrelated_type
     - literal_only_boolean_expressions
+    - matching_super_parameters
     - missing_whitespace_between_adjacent_strings
     - no_adjacent_strings_in_list
     - no_default_cases
     - no_duplicate_case_values
     - no_leading_underscores_for_library_prefixes
     - no_leading_underscores_for_local_identifiers
+    - no_literal_bool_comparisons
     - no_logic_in_create_state
     - no_runtimeType_toString
+    - no_self_assignments
+    - no_wildcard_variable_uses
     - non_constant_identifier_names
     - noop_primitive_operations
     - null_check_on_nullable_type_parameter
@@ -187,16 +183,18 @@ linter:
     - tighten_type_of_initializing_formals
     - type_annotate_public_apis
     - type_init_formals
-    - invalid_case_patterns
+    - type_literal_in_constant_pattern
     - unawaited_futures
     - unnecessary_await_in_return
     - unnecessary_brace_in_string_interps
+    - unnecessary_breaks
     - unnecessary_const
     - unnecessary_constructor_name
-    - unnecessary_final: false
+    - unnecessary_final
     - unnecessary_getters_setters
     - unnecessary_lambdas
     - unnecessary_late
+    - unnecessary_library_directive
     - unnecessary_new
     - unnecessary_null_aware_assignments
     - unnecessary_null_aware_operator_on_extension_on_nullable
@@ -213,8 +211,6 @@ linter:
     - unnecessary_to_list_in_spreads
     - unreachable_from_main
     - unrelated_type_equality_checks
-    - type_literal_in_constant_pattern
-    - unnecessary_breaks
     - unsafe_html
     - use_build_context_synchronously
     - use_colored_box
@@ -238,37 +234,3 @@ linter:
     - valid_regexps
     - void_checks
     
-dart_code_metrics:
-  anti-patterns:
-    - long-method
-    - long-parameter-list
-  metrics:
-    cyclomatic-complexity: 20
-    maximum-nesting-level: 5
-    number-of-parameters: 4
-    source-lines-of-code: 180
-  metrics-exclude:
-    - test/**
-  rules:
-    - avoid-unnecessary-setstate
-    - avoid-use-expanded-as-spacer
-    - avoid-wrapping-in-padding
-    - avoid-returning-widgets
-    - avoid-shrink-wrap-in-lists
-    - avoid-use-expanded-as-spacer
-    - always-remove-listener
-    - no-equal-arguments
-    - newline-before-return
-    - no-boolean-literal-compare
-    - no-empty-block
-    - no-equal-then-else
-    - prefer-single-widget-per-file
-    - prefer-extracting-callbacks
-    - prefer-correct-edge-insets-constructor
-    - prefer-const-border-radius
-    - prefer-conditional-expressions
-    - prefer-extracting-callbacks
-    - prefer-first
-    - prefer-last
-    - prefer-trailing-comma
-    - check-unused-files
