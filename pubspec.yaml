@@ -11,8 +11,5 @@ version: 1.0.0
 environment:
   sdk: ^3.0.0
 
-dependencies:
+dev_dependencies:
   dart_code_metrics: ^5.7.5
-
-dependency_overrides:
-  http: ^1.0.0
