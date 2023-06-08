@@ -6,10 +6,18 @@ issue_tracker: https://github.com/pro100andrey/pro_lints/issues
 homepage: https://github.com/pro100andrey/pro_lints
 documentation: https://github.com/pro100andrey/pro_lints/blob/main/README.md
 
-version: 1.0.0+1
+version: 1.0.0+2
 
 environment:
   sdk: ^3.0.0
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
 
 dev_dependencies:
   dart_code_metrics: ^5.7.5
