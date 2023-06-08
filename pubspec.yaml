@@ -1,12 +1,18 @@
-name: lint
+name: pro_lints
 description: Common Lints package.
 
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+repository: https://github.com/pro100andrey/pro_lints
+issue_tracker: https://github.com/pro100andrey/pro_lints/issues
+homepage: https://github.com/pro100andrey/pro_lints
+documentation: https://github.com/pro100andrey/pro_lints/blob/main/README.md
 
-version: 2.0.0
+version: 1.0.0
 
 environment:
-  sdk: ^3.0.2
+  sdk: ^3.0.0
 
 dependencies:
-  dart_code_metrics: ^5.7.4
+  dart_code_metrics: ^5.7.5
+
+dependency_overrides:
+  http: ^1.0.0

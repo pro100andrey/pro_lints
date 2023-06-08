@@ -85,10 +85,10 @@ packages:
     dependency: "direct main"
     description:
       name: dart_code_metrics
-      sha256: "8d40e9fa6ba6b5f4f569768e267e9cb3e74350f98b30ac4b8160795792ce5414"
+      sha256: "1dc1fa763b73ed52147bd91b015d81903edc3f227b77b1672fcddba43390ed18"
       url: "https://pub.dev"
     source: hosted
-    version: "5.7.4"
+    version: "5.7.5"
   dart_code_metrics_presets:
     dependency: transitive
     description:
@@ -130,13 +130,13 @@ packages:
     source: hosted
     version: "0.15.3"
   http:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
       name: http
-      sha256: "5895291c13fa8a3bd82e76d5627f69e0d85ca6a30dcac95c4ea19a5d555879c2"
+      sha256: "4c3f04bfb64d3efd508d06b41b825542f08122d30bda4933fb95c069d22a4fa3"
       url: "https://pub.dev"
     source: hosted
-    version: "0.13.6"
+    version: "1.0.0"
   http_parser:
     dependency: transitive
     description:
@@ -282,4 +282,4 @@ packages:
     source: hosted
     version: "3.1.2"
 sdks:
-  dart: ">=3.0.2 <4.0.0"
+  dart: ">=3.0.0 <4.0.0"
