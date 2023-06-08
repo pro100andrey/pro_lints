@@ -1,3 +1,5 @@
+## 2.0.1
+unnecessary_final: false by default
 ## 2.0.0
 * dart_code_metrics - removed from dependencies
 ## 1.0.1
