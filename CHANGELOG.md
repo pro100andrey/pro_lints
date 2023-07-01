@@ -1,3 +1,5 @@
+## 2.0.2
+avoid_equals_and_hash_code_on_mutable_classes: false by default
 ## 2.0.1
 unnecessary_final: false by default
 ## 2.0.0
