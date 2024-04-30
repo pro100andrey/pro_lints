@@ -12,7 +12,6 @@ analyzer:
     cancel_subscriptions: error
     close_sinks: error
     valid_regexps: error
-    always_require_non_null_named_parameters: error
     invalid_annotation_target: ignore
 
 linter:
@@ -23,6 +22,7 @@ linter:
     - always_specify_types: false
     - always_use_package_imports: false
     - annotate_overrides
+    - annotate_redeclares
     - avoid_annotating_with_dynamic
     - avoid_bool_literals_in_conditional_expressions
     - avoid_catches_without_on_clauses
@@ -233,4 +233,3 @@ linter:
     - use_to_and_as_if_applicable
     - valid_regexps
     - void_checks
-    
