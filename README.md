@@ -6,16 +6,15 @@ checking anything from potential typing issues, coding style, and formatting. Th
 
 ## Enabling the lints
 
-
 For existing apps or packages, you can enable these lints via:
 
-1.  In a terminal, located at the root of your package, run this command:
+1. In a terminal, located at the root of your package, run this command:
 
     ```terminal
     dart pub add --dev pro_lints
     ```
 
-2.  Create a new `analysis_options.yaml` file, next to the pubspec, that
+2. Create a new `analysis_options.yaml` file, next to the pubspec, that
     includes the lints package:
 
     ```yaml

@@ -1,4 +1,5 @@
 analyzer:
+  exclude: [build/**]
   strong-mode:
     implicit-casts: false
     implicit-dynamic: false
@@ -8,6 +9,7 @@ analyzer:
     missing_required_param: error
     avoid_relative_lib_imports: error
     avoid_slow_async_io: error
+    avoid_empty_else: error
     avoid_types_as_parameter_names: error
     cancel_subscriptions: error
     close_sinks: error
@@ -209,6 +211,7 @@ linter:
     - unnecessary_string_interpolations
     - unnecessary_this
     - unnecessary_to_list_in_spreads
+    - unnecessary_library_name
     - unreachable_from_main
     - unrelated_type_equality_checks
     - unsafe_html
@@ -233,3 +236,4 @@ linter:
     - use_to_and_as_if_applicable
     - valid_regexps
     - void_checks
+    - missing_code_block_language_in_doc_comment: false
