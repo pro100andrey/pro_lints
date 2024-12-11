@@ -6,10 +6,10 @@ issue_tracker: https://github.com/pro100andrey/pro_lints/issues
 homepage: https://github.com/pro100andrey/pro_lints
 documentation: https://github.com/pro100andrey/pro_lints/blob/main/README.md
 
-version: 2.0.4
+version: 3.0.0
 
 environment:
-  sdk: ^3.4.0
+  sdk: ^3.6.0
 
 platforms:
   android:

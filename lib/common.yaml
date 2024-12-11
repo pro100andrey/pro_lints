@@ -18,6 +18,10 @@ analyzer:
 
 linter:
   rules:
+    - omit_obvious_local_variable_types
+    - specify_nonobvious_local_variable_types: false
+    - avoid_futureor_void: false
+    - use_truncating_division
     - always_declare_return_types
     - always_put_control_body_on_new_line
     - always_put_required_named_parameters_first
