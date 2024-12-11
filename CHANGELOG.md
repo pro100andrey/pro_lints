@@ -1,3 +1,7 @@
+## 3.0.0
+
+Bump environment sdk to ^3.6.0
+
 ## 2.0.4
 
 Bump environment sdk to ^3.4.0
