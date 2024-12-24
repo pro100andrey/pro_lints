@@ -1,3 +1,7 @@
+## 3.0.1
+
+Fix syntax
+
 ## 3.0.0
 
 Bump environment sdk to ^3.6.0
