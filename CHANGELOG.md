@@ -1,3 +1,11 @@
+
+## 5.0.0
+
+Bump environment sdk to ^3.9.0
+
+Add:
+`switch_on_type`, `unnecessary_unawaited` rules.
+
 ## 4.0.0
 
 Bump environment sdk to ^3.8.0

@@ -242,3 +242,5 @@ linter:
     valid_regexps: true
     void_checks: true
     missing_code_block_language_in_doc_comment: false
+    switch_on_type: true
+    unnecessary_unawaited: true

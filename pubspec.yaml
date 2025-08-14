@@ -6,10 +6,10 @@ issue_tracker: https://github.com/pro100andrey/pro_lints/issues
 homepage: https://github.com/pro100andrey/pro_lints
 documentation: https://github.com/pro100andrey/pro_lints/blob/main/README.md
 
-version: 4.0.0
+version: 5.0.0
 
 environment:
-  sdk: ^3.8.0
+  sdk: ^3.9.0
 
 platforms:
   android:
@@ -20,4 +20,6 @@ platforms:
   windows:
 
 topics:
-  - lints
+  - linter
+  - analyzer
+  - rules
