@@ -1,4 +1,30 @@
 
+## 5.1.0
+
+Bump environment sdk to ^3.10.0
+
+**Added 11 new rules:**
+
+- `document_ignores` - Document ignored linter rules
+- `invalid_runtime_check_with_js_interop_types` - Runtime checks with JS interop types
+- `omit_obvious_property_types` - Omit obvious property types
+- `remove_deprecations_in_breaking_versions` - Remove deprecations in breaking versions
+- `specify_nonobvious_property_types` - Specify non-obvious property types
+- `strict_top_level_inference` - Strict top-level type inference
+- `unintended_html_in_doc_comment` - Detect unintended HTML in doc comments
+- `unnecessary_async` - Detect unnecessary async
+- `unnecessary_ignore` - Detect unnecessary ignore directives
+- `unnecessary_underscores` - Detect unnecessary underscores
+- `unsafe_variance` - Unsafe variance in generics
+
+**Removed:**
+
+- `unsafe_html` - Replaced by `unsafe_variance`
+
+**Fixed:**
+
+- Removed duplicate rules from `analyzer.errors` section that were already in `linter.rules`
+
 ## 5.0.0
 
 Bump environment sdk to ^3.9.0
