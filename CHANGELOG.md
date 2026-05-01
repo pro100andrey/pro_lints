@@ -1,4 +1,19 @@
 
+
+## 5.2.0
+
+Bump environment sdk to ^3.11.5
+
+Added:
+
+- `simple_directive_paths` - Use simple paths in directives
+- `simplify_variable_pattern` - Simplify variable patterns
+- `var_with_no_type_annotation` - Detect `var` declarations without type annotations
+
+Removed:
+
+- `package_api_docs`
+
 ## 5.1.0
 
 Bump environment sdk to ^3.10.0

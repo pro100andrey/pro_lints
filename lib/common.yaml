@@ -172,6 +172,8 @@ linter:
     remove_deprecations_in_breaking_versions: true
     require_trailing_commas: true
     secure_pubspec_urls: true
+    simple_directive_paths: true
+    simplify_variable_pattern: true
     sized_box_for_whitespace: true
     sized_box_shrink_expand: true
     slash_for_doc_comments: true
@@ -245,5 +247,5 @@ linter:
     use_to_and_as_if_applicable: true
     use_truncating_division: true
     valid_regexps: true
+    var_with_no_type_annotation: true
     void_checks: true
-    package_api_docs: false

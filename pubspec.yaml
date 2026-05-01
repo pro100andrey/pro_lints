@@ -1,15 +1,15 @@
 name: pro_lints
-description: Common Lints package.
+description: Lints for Dart and Flutter projects.
 
 repository: https://github.com/pro100andrey/pro_lints
 issue_tracker: https://github.com/pro100andrey/pro_lints/issues
 homepage: https://github.com/pro100andrey/pro_lints
 documentation: https://github.com/pro100andrey/pro_lints/blob/main/README.md
 
-version: 5.1.0
+version: 5.2.0
 
 environment:
-  sdk: ^3.10.0
+  sdk: ^3.11.5
 
 platforms:
   android:
@@ -21,4 +21,7 @@ platforms:
 
 topics:
   - lints
+  - flutter
+  - dart
+  - analyzer
 
