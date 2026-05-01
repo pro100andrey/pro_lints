@@ -11,10 +11,6 @@ analyzer:
 
 linter:
   rules:
-    omit_obvious_local_variable_types: true
-    specify_nonobvious_local_variable_types: false
-    avoid_futureor_void: false
-    use_truncating_division: true
     always_declare_return_types: true
     always_put_control_body_on_new_line: true
     always_put_required_named_parameters_first: true
@@ -35,6 +31,7 @@ linter:
     avoid_field_initializers_in_const_classes: true
     avoid_final_parameters: true
     avoid_function_literals_in_foreach_calls: true
+    avoid_futureor_void: false
     avoid_implementing_value_types: true
     avoid_init_to_null: true
     avoid_js_rounded_ints: true
@@ -105,6 +102,7 @@ linter:
     lines_longer_than_80_chars: true
     literal_only_boolean_expressions: true
     matching_super_parameters: true
+    missing_code_block_language_in_doc_comment: false
     missing_whitespace_between_adjacent_strings: true
     no_adjacent_strings_in_list: true
     no_default_cases: true
@@ -121,11 +119,11 @@ linter:
     null_check_on_nullable_type_parameter: true
     null_closures: true
     omit_local_variable_types: true
+    omit_obvious_local_variable_types: true
     omit_obvious_property_types: true
     one_member_abstracts: true
     only_throw_errors: true
     overridden_fields: true
-    package_api_docs: false
     package_names: true
     package_prefixed_library_names: true
     parameter_assignments: true
@@ -181,8 +179,10 @@ linter:
     sort_constructors_first: true
     sort_pub_dependencies: true
     sort_unnamed_constructors_first: true
+    specify_nonobvious_local_variable_types: false
     specify_nonobvious_property_types: false
     strict_top_level_inference: true
+    switch_on_type: true
     test_types_in_equals: true
     throw_in_finally: true
     tighten_type_of_initializing_formals: true
@@ -203,6 +203,7 @@ linter:
     unnecessary_lambdas: true
     unnecessary_late: true
     unnecessary_library_directive: true
+    unnecessary_library_name: true
     unnecessary_new: true
     unnecessary_null_aware_assignments: true
     unnecessary_null_aware_operator_on_extension_on_nullable: true
@@ -217,7 +218,6 @@ linter:
     unnecessary_string_interpolations: true
     unnecessary_this: true
     unnecessary_to_list_in_spreads: true
-    unnecessary_library_name: true
     unnecessary_unawaited: true
     unnecessary_underscores: true
     unreachable_from_main: true
@@ -227,7 +227,6 @@ linter:
     use_colored_box: true
     use_decorated_box: true
     use_enums: true
-    use_null_aware_elements: true
     use_full_hex_values_for_flutter_colors: true
     use_function_type_syntax_for_parameters: true
     use_if_null_to_convert_nulls_to_bools: true
@@ -235,6 +234,7 @@ linter:
     use_key_in_widget_constructors: true
     use_late_for_private_fields_and_variables: true
     use_named_constants: true
+    use_null_aware_elements: true
     use_raw_strings: true
     use_rethrow_when_possible: true
     use_setters_to_change_properties: true
@@ -243,7 +243,7 @@ linter:
     use_super_parameters: true
     use_test_throws_matchers: true
     use_to_and_as_if_applicable: true
+    use_truncating_division: true
     valid_regexps: true
     void_checks: true
-    missing_code_block_language_in_doc_comment: false
-    switch_on_type: true
+    package_api_docs: false
