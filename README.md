@@ -31,7 +31,7 @@ flutter pub add --dev pro_lints
 Create or edit `analysis_options.yaml` in the root of your package:
 
 ```yaml
-include: package:pro_lints/common.yaml
+include: package:pro_lints/recommended.yaml
 ```
 
 That's it! The analyzer will now use the comprehensive lint rules from this package.

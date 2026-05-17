@@ -1,4 +1,9 @@
 
+## 6.0.0
+
+Added: recommended.yaml as the new default configuration file.
+
+> The `common.yaml` file is now deprecated and will be removed in a future release. Please update your `analysis_options.yaml` to include `recommended.yaml` instead.
 
 ## 5.2.0
 
